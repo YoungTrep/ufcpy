@@ -1,6 +1,6 @@
 # UFCPY
 
-![Discord](https://img.shields.io/discord/797127174141378571?label=SERVER&logo=discord&style=for-the-badge)<br>
+![Discord](https://img.shields.io/discord/797127174141378571?label=SERVER&logo=discord&logoColor=white&style=for-the-badge)<br>
 ![GitHub forks](https://img.shields.io/github/forks/YoungTrep/ufcpy?color=color&logo=github&style=for-the-badge)<br>
 ![GitHub Repo stars](https://img.shields.io/github/stars/YoungTrep/ufcpy?color=lime%20green&logo=github&style=for-the-badge)
 
