@@ -1,6 +1,8 @@
 # UFCPY
 
-![Discord](https://img.shields.io/discord/797127174141378571?label=SERVER&logo=discord&style=for-the-badge) ![PyPI - Downloads](https://img.shields.io/pypi/dw/ufcpy?logo=pypi&style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/YoungTrep/ufcpy?color=green&logo=github&style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/YoungTrep/ufcpy?color=lime%20green&label=STARS&logo=github&style=for-the-badge)
+![Discord](https://img.shields.io/discord/797127174141378571?label=SERVER&logo=discord&style=for-the-badge)<br>
+![GitHub forks](https://img.shields.io/github/forks/YoungTrep/ufcpy?color=color&logo=github&style=for-the-badge)<br>
+![GitHub Repo stars](https://img.shields.io/github/stars/YoungTrep/ufcpy?color=lime%20green&logo=github&style=for-the-badge)
 
 UFCpy is a Python wrapper to get access to the UFC fighter roster. 
 
