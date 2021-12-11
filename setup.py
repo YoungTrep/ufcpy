@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='ufcpy',
-    version='1.0.0',
+    version='2.0.0',
     author='youngtrep',
     author_email='youngtrep.business@gmail.com',
     description='A fast and easy way to access the UFC roster',
@@ -14,6 +14,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'beautifulsoup4',
+        'urllib3'
     ],
     license='MIT',
     keywords=['ufc', 'mma', 'mixed martial arts', 'fighting', 'fighters', 'ufc-api', 'mma-api'],
