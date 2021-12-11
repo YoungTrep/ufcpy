@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: ufcpy
+Version: 2.0.1
+Summary: A fast and easy way to access the UFC roster
+Home-page: https://github.com/YoungTrep/ufcpy
+Author: youngtrep
+Author-email: youngtrep.business@gmail.com
+License: MIT
+Keywords: ufc,mma,mixed martial arts,fighting,fighters,ufc-api,mma-api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# UFCPY
+
+![Discord](https://img.shields.io/discord/797127174141378571?label=SERVER&logo=discord&logoColor=white&style=for-the-badge)<br>
+![GitHub forks](https://img.shields.io/github/forks/YoungTrep/ufcpy?color=color&logo=github&style=for-the-badge)<br>
+![GitHub Repo stars](https://img.shields.io/github/stars/YoungTrep/ufcpy?color=lime%20green&logo=github&style=for-the-badge)
+
+UFCpy is a Python wrapper to get access to the UFC fighter roster. 
+
+## Installation
+
+Use the package manager [pip](https://pypi.org) to install ufcpy.
+
+```bash
+pip install ufcpy
+```
+
+## Usage
+
+```python
+from ufcpy import Fighter
+
+f = Fighter('Jon Jones')
+
+# returns 'Bones'
+f.nickname
+
+# returns 'Rochester, United States'
+f.hometown
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
