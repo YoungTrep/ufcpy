@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='ufcpy',
-    version='2.0.0',
+    version='2.0.1',
     author='youngtrep',
     author_email='youngtrep.business@gmail.com',
     description='A fast and easy way to access the UFC roster',

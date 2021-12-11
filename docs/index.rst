@@ -28,18 +28,18 @@ First Steps
 
       from ufcpy import Fighter
 
-3. Make a class and get a fighter with their name
+3. Make a class and with the fighter's name as a parameter
 
    .. code-block:: python
 
-      fighter = Fighter()
-      fighter.get_fighter('Conor Mcgregor')
+      fighter = Fighter('Jon Jones')
 
 4. Use the class to return anything about the specified fighter
 
    .. code-block:: python
 
       fighter.nickname
+      # Returns 'Bones'
 
 ===================================
 Example
@@ -49,8 +49,7 @@ Example
    
    from ufcpy import Fighter
 
-   f = Fighter()
-   f.get_fighter('Jon Jones')
+   f = Fighter('Jon Jones')
 
    print(f.nickname, f.hometown)
 

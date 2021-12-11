@@ -19,8 +19,7 @@ pip install ufcpy
 ```python
 from ufcpy import Fighter
 
-f = Fighter()
-f.get_fighter('jon jones')
+f = Fighter('Jon Jones')
 
 # returns 'Bones'
 f.nickname
