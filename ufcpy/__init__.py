@@ -7,7 +7,8 @@ A wrapper for the UFC website
 :license: MIT. See LICENSE for more details 
 """
 
-from .ufcpy import *
+from .Fighter import *
+from .Champion import *
 from .exceptions import *
 
 __title__ = "ufcpy"
