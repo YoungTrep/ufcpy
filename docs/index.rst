@@ -65,6 +65,10 @@ Fighter
    :members:
    :show-inheritance:
 
+.. autoclass:: ufcpy.Champion
+   :members:
+   :show-inheritance:
+
 ===================================
 Exception Classes
 ===================================
