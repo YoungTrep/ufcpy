@@ -22,19 +22,19 @@ First Steps
 
       python3 -m pip install ufcpy
 
-2. Import the package
+2. Import the function to find a fighter
 
    .. code-block:: python
 
-      from ufcpy import Fighter
+      from ufcpy import find_fighter_by_fullname
 
-3. Make a class and with the fighter's name as a parameter
+3. Call the function and define it.
 
    .. code-block:: python
 
-      fighter = Fighter('Jon Jones')
+      fighter = find_fighter_by_fullname('Jon Jones')
 
-4. Use the class to return anything about the specified fighter
+4. Use the class returned via the previous function to return anything about the specified fighter
 
    .. code-block:: python
 
@@ -47,9 +47,9 @@ Example
 
 .. code-block:: python
    
-   from ufcpy import Fighter
+   from ufcpy import find_fighter_by_fullname
 
-   f = Fighter('Jon Jones')
+   f = find_fighter_by_fullname('Jon Jones')
 
    print(f.nickname, f.hometown)
 

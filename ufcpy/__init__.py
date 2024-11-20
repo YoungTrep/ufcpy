@@ -7,7 +7,7 @@ A wrapper for the UFC website
 :license: MIT. See LICENSE for more details 
 """
 
-from .Fighter import *
+from .Fighter import find_fighter_by_fullname
 from .Champion import *
 from .exceptions import *
 

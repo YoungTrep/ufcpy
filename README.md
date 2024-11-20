@@ -17,15 +17,15 @@ pip install ufcpy
 ## Usage
 
 ```python
-from ufcpy import Fighter
+from ufcpy import find_fighter_by_fullname
 
-f = Fighter('Jon Jones')
+fighter = find_fighter_by_fullname('Jon Jones')
 
 # returns 'Bones'
-f.nickname
+fighter.nickname
 
 # returns 'Rochester, United States'
-f.hometown
+fighter.hometown
 ```
 
 ```python
