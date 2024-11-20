@@ -13,7 +13,6 @@ sphinx:
   builder: html
 
 python:
-  version: 3.8
   install:
     - method: pip
       path: .
